@@ -1,0 +1,102 @@
+.ref {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.1s;
+  padding: 2px;
+  position: relative;
+  box-sizing: border-box;
+  font-size: 13px;
+  position: relative;
+}
+
+.ref .icon {
+  width: 60px;
+}
+
+.ref svg {
+  height: 50px;
+  font-size: 20px;
+}
+
+.name {
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.info {
+  flex: 1;
+}
+
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.1s;
+  padding: 0 6px;
+}
+
+.button svg {
+  width: 20px;
+}
+
+.button {
+  transition: 0.1s;
+  position: relative;
+}
+
+.button:active {
+  transform: scale(0.8);
+}
+
+.copiedNotifier {
+  position: absolute;
+  bottom: 100%;
+  background: #eeeae3;
+  border: 0.5px solid #b6b6b6;
+  padding: 0 6px;
+  right: 0;
+}
+
+.popup {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 4px;
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 10;
+}
+
+.popup > div {
+  font-size: 13px;
+  border-radius: 4px;
+  transition: 0.1s;
+  cursor: pointer;
+  padding: 2px 10px;
+}
+
+.popup > div:last-child {
+  color: red;
+}
+
+.popup div:hover {
+  background: #f5f5f5;
+}
+
+.deletingOverlay {
+  position: absolute;
+  background: #ffffffbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.ref.justUploaded {
+  background: #eec5b2;
+}
