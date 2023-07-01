@@ -10,12 +10,12 @@ function Layout({ children }) {
           <ul className="d-flex align-items-center gap-2 m-0">
             <li>
               <Link className="text-light" to="/">
-                Home
+                Storage
               </Link>
             </li>
             <li>
-              <Link className="text-light" to="/about">
-                About
+              <Link className="text-light" to="/firestore">
+                Firestore
               </Link>
             </li>
           </ul>

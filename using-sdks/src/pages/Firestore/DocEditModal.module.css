@@ -1,0 +1,35 @@
+.DocEditModal {
+  position: fixed;
+  padding: 20px;
+  border-radius: 8px;
+  left: 50%;
+  top: 100px;
+  transform: translateX(-50%);
+  z-index: 20;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  width: 800px;
+  max-width: calc(100vw - 20px);
+}
+
+.closeButton {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0.5px solid #ececec;
+  width: 30px;
+  height: 30px;
+  transition: 0.1s;
+}
+
+.closeButton:hover {
+  background: #ffcdcd;
+}
+
+.closeButton svg {
+  width: 20px;
+}
